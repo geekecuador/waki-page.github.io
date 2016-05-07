@@ -1,0 +1,224 @@
+/*!
+ * Start Bootstrap - Heroic Features HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.hero-spacer {
+    margin-top: 50px;
+    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+}
+
+.hero-feature {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.brand-heading {
+     font-size: 24px;
+    /*background: #fff;*/
+    /*background: rgba(255,255,255,0.4);*/
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-weight: 100;
+}
+
+.brand-heading span{
+     color: #ffa446;
+}
+.jumbotron h1{
+	color: #fff;
+}
+.jumbotron p {
+	font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-weight: 300;
+}
+.btn-primary{
+	background: #ffa446;
+	    border: none;
+}
+.logito{
+
+    width: 100px;
+    height: auto;
+    position: relative;
+    bottom: 10px;
+}
+.roj{
+    color: #FF003C;
+}
+.cop{
+
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    font-weight: 100;
+}
+.cop span{
+    font-family: 'Poiret One', cursive;
+}
+.cop a{
+    color: #FF003C;
+}
+.navbar-inverse .navbar-nav>li>a {
+	    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: relative;
+    /*margin: 15px 20px 15px 10px;*/
+    /*top: 6px;*/
+        margin-top: 5px;
+        color: #fff;
+}
+.tit{
+
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.spa{
+
+padding-bottom: 20px;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.caption2 {
+    height: 130px;
+    overflow: hidden;
+    padding: 9px;
+}
+
+.caption2 h4 {
+    white-space: nowrap;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #ffa446;
+}
+
+.thumbnail .caption2 {
+    /*padding: 9px;*/
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    color: #333;
+}
+
+.thumbnail .caption-full {
+    padding: 20px;
+    color: #333;
+}
+
+.img-circle{
+    border: 2px solid #edf0f0;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 6px;
+}
+
+.app-search {
+    position: relative;
+    margin: 15px 20px 15px 10px;
+}
+
+.app-search a {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    color: #ffa446;
+}
+.salir{
+    font-size: 24px;
+}
+.pull-right {
+    float: right!important;
+}
+.btn{
+        padding: 10px;
+    width: auto;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+.boton{
+        display: inline-block;
+    background-color: #ffa85e;
+    border: 3px solid #ffa85e;
+    padding: 14px 45px 16px 45px;
+    border-radius: 6px;
+    color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    width: auto;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-in-out;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.boton:hover{
+     background-color: #000;
+     text-decoration: none;
+     color: #fff;
+     border-color: #000;
+}
+#fb {
+    color: #2B56AB;
+}
+.ingreso{
+    margin-right: 60px;
+    margin-left: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    position: relative;
+    left: 14%;
+}
+.titu{
+
+    position: relative;
+    bottom: 41px;
+    left: 100px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    color: #fff;
+}
+/*.navbar-inverse {
+    background-color: #FFF;
+    border-color: rgba(189, 189, 189, 0.29);
+}*/
+
+
+@media (min-width: 768px){
+.navbar-nav {
+    float: right;
+    margin: 0;
+}	
+}
+
